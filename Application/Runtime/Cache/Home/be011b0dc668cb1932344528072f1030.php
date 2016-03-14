@@ -100,80 +100,12 @@
 
 
 <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
-﻿
+<link rel="stylesheet" href="http://www.myproject1.com/Public/home/css/zerogrid.css">
+<link rel="stylesheet" href="http://www.myproject1.com/Public/home/css/style.css">
+<div>
+	<h3>关于我：我叫张永召，这是我的博客，欢迎大家批评指正</h3>
+</div>
 
-<!--------------Content--------------->
-<section class="container page-home">
-	<div id="main-content" class="wrap-container zerogrid">
-		<article>
-			<div class="col-1-2 right">
-				<img src="Public/home/images/img01.jpg" />
-			</div>
-			<div class="col-1-2 left">
-				<a class="art-category left" href="#">Design</a>
-				<div class="clear"></div>
-				<div class="art-content">
-					<h2>the title on the article</h2>
-					<div class="info">By Admin on March 01, 2015 with <a href="#">01 Commnets</a></div>
-					<div class="line"></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus.</p>
-					<a href="#" class="more">Read More</a>
-				</div>	
-			</div>
-		</article>
-		<article>
-			<div class="col-1-2">
-				<img src="Public/home/images/img02.jpg" />
-			</div>
-			<div class="col-1-2">
-				<a class="art-category right" href="#">Portfolio</a>
-				<div class="clear"></div>
-				<div class="art-content">
-					<h2>the title on the article</h2>
-					<div class="info">By Admin on March 01, 2015 with <a href="#">01 Commnets</a></div>
-					<div class="line"></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus.</p>
-					<a href="#" class="more">Read More</a>
-				</div>
-			</div>
-		</article>
-		<article>
-			<div class="col-1-2 right">
-				<img src="Public/home/images/img03.jpg" />
-			</div>
-			<div class="col-1-2 left">
-				<a class="art-category left" href="#">Gallery</a>
-				<div class="clear"></div>
-				<div class="art-content">
-					<h2>the title on the article</h2>
-					<div class="info">By Admin on March 01, 2015 with <a href="#">01 Commnets</a></div>
-					<div class="line"></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus.</p>
-					<a href="#" class="more">Read More</a>
-				</div>	
-			</div>
-		</article>
-		<article>
-			<div class="col-1-2">
-				<img src="Public/home/images/img04.jpg" />
-			</div>
-			<div class="col-1-2">
-				<a class="art-category right" href="#">Studio</a>
-				<div class="clear"></div>
-				<div class="art-content">
-					<h2>the title on the article</h2>
-					<div class="info">By Admin on March 01, 2015 with <a href="#">01 Commnets</a></div>
-					<div class="line"></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus.</p>
-					<a href="#" class="more">Read More</a>
-				</div>
-			</div>
-		</article>
-	</div>
-	
-	
-</section>
-<!--------------Footer--------------->
 <!--------------Footer--------------->
 <footer>
 	<div class="wrap-footer zerogrid">

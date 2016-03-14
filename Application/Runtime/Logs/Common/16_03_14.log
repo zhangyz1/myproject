@@ -4,3 +4,15 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000257s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001868s ]
 ERR: 无法加载模块:Favicon
 
+[ 2016-03-14T20:38:09+08:00 ] 127.0.0.1 /index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002573s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-14T20:39:27+08:00 ] 127.0.0.1 /single.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002019s ]
+ERR: 无法加载模块:Single
+
