@@ -18,10 +18,10 @@
 
     <!-- CSS
   ================================================== -->
-  	<link rel="stylesheet" href="Public/home/css/zerogrid.css">
-	<link rel="stylesheet" href="Public/home/css/style.css">
-	<link rel="stylesheet" href="Public/home/css/component.css">
-	<link rel="stylesheet" href="Public/home/css/responsive.css">
+  	<link rel="stylesheet" href="/Public/home/css/zerogrid.css">
+	<link rel="stylesheet" href="/Public/home/css/style.css">
+	<link rel="stylesheet" href="/Public/home/css/component.css">
+	<link rel="stylesheet" href="/Public/home/css/responsive.css">
 
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -46,11 +46,11 @@
 		<div class="wrap-top zerogrid">
 			<div class="row">
 				<div class="top-social">
-					<a href="#"><img src="Public/home/images/facebook.png" title="facebook"/></a>
-					<a href="#"><img src="Public/home/images/twitter.png" title="twitter"/></a>
-					<a href="#"><img src="Public/home/images/google.png" title="google"/></a>
-					<a href="#"><img src="Public/home/images/pinterest.png" title="pinterest"/></a>
-					<a href="#"><img src="Public/home/images/instagram.png" title="instagram"/></a>
+					<a href="#"><img src="/Public/home/images/facebook.png" title="facebook"/></a>
+					<a href="#"><img src="/Public/home/images/twitter.png" title="twitter"/></a>
+					<a href="#"><img src="/Public/home/images/google.png" title="google"/></a>
+					<a href="#"><img src="/Public/home/images/pinterest.png" title="pinterest"/></a>
+					<a href="#"><img src="/Public/home/images/instagram.png" title="instagram"/></a>
 				</div>
 				<div class="top-search"><form method="get" action="/search" id="search">
 				  <input name="q" type="text" size="40" placeholder="Search..." />
@@ -100,11 +100,11 @@
 
 
 <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
-<link rel="stylesheet" href="http://www.myproject1.com/Public/home/css/zerogrid.css">
-<link rel="stylesheet" href="http://www.myproject1.com/Public/home/css/style.css">
-<div>
+<section class="container page-home">
+<div id="main-content" class="wrap-container zerogrid">
 	<h3>关于我：我叫张永召，这是我的博客，欢迎大家批评指正</h3>
 </div>
+</section>
 
 <!--------------Footer--------------->
 <footer>
