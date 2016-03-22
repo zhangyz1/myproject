@@ -6,7 +6,7 @@
  * Time: 16:00
  */
 use       Think\Model;
-class MassageModel extends Model{
+class MessageModel extends Model{
 
     public function __construct(){
         parent::__construct();
