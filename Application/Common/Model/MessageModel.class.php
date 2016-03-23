@@ -6,7 +6,7 @@
  * Time: 16:00
  */
 use       Think\Model;
-class MessageModel extends Model{
+class MessageModel extends BaseModel{
 
     public function __construct(){
         parent::__construct();
