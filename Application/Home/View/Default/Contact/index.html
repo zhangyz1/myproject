@@ -32,6 +32,15 @@
 					        <input class="sendButton" type="submit" name="Submit" value="Send">
 
 						   </form>
+							 <div>
+								 <span><strong>最新评论</strong>：</span>
+								 <?php foreach ($res as $key =>$v):?>
+									 <label>
+ 					        <span>评论人:<?php echo $v['name']?></span>
+ 					        <p><?php echo $v['content']?></p>
+ 					        </label>
+								 <?php endforeach;?>
+							 </div>
 						</div>
 					</div>
 				</article>

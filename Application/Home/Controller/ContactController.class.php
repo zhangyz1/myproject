@@ -10,6 +10,9 @@ class ContactController extends Controller {
             echo 'ddddd';
           }
         }
+
+        $res = D('Message')->find_all();
+        $this->assign('res',$res);
         $this->display('index');
     }
 }

@@ -6,6 +6,7 @@
  * Time: 16:00
  */
 use       Think\Model;
+use       Common\Model\BaseModel;
 class MessageModel extends BaseModel{
 
     public function __construct(){
