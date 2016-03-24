@@ -5,7 +5,7 @@
  * Date: 2016/3/22
  * Time: 16:00
  */
-use       Think\Model;
+namespace Common\Model;
 use       Common\Model\BaseModel;
 class MessageModel extends BaseModel{
 
