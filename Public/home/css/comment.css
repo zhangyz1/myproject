@@ -1,0 +1,102 @@
+/** 文章评论 **/
+.commentlist {}
+.commentlist .comment {
+	list-style: none;
+	border-top:1px solid #ddd;
+	}
+.commentlist li.comment ul.children {margin-left:20px;}
+.commentlist .depth-1{	margin: 10px 0 10px 0;}
+.commentlist li {
+	position: relative;
+	}
+.commentlist .alt {
+	}
+.commentlist .comment-body {padding:5px 0 5px 0}
+.commentlist .comment-body:hover {background:#fafafa url(images/bg2.png) repeat;}
+
+.commentlist p {
+	margin: 5px 0 5px 50px;
+	line-height:22px;
+	}
+.reply {
+	}
+.reply a:link, .reply a:visited{
+	text-align:center;
+	font-size:12px;}
+.datetime {
+	font-size:12px;
+	color:#aaa;
+	text-shadow: 0px 1px 0px #fff;
+	margin-left:50px;
+	}
+.commentmetadata {
+	font-size:12px;
+	color:#aaa;
+	text-shadow: 0px 1px 0px #fff;
+	margin-left:50px;
+	}
+ol.commentlist li div.vcard img.avatar {
+	width:40px;
+	height:40px;
+	position:relative;
+	float: left;
+	margin: 4px 6px 0 0;
+	padding: 2px;
+	border:1px solid #ddd;
+	background: #fff;
+}
+ol.commentlist li div.floor{ float:right;color:#bbb}
+#respond {
+	padding:5px 10px 10px;
+	overflow:hidden;
+	}
+#respond_box {	clear:both;border-top:1px solid #ddd;}
+#respond h3 {	margin:5px 0 6px 0;}
+#comment {background:#fff url(images/comment.gif) no-repeat center;}
+#commentform p {
+	color: #333;
+	}
+#commentform label {
+	color: #868686;
+	}
+#commentform input {
+	border:1px solid #ddd;
+	width: 160px;
+	margin: 4px 5px 4px 0;
+	padding: 3px;
+	box-shadow:inset 2px 3px 5px #eee;
+	}
+#commentform input:focus {
+	border: 1px solid #ccc;
+	}
+#commentform textarea {
+	width: 450px;
+	height: 120px;
+	font-size:13px;
+	padding:4px;
+	margin:4px 0 0 0;
+	border:1px solid #ddd;
+	box-shadow:inset 2px 3px 5px #eee;
+	}
+#commentform textarea:focus {
+	border: 1px solid #ccc;
+	}
+#commentform input#submit, #commentform input#reset{
+	width:87px;
+	height:26px;
+ 	color: #393939;
+	text-align:center;
+	text-shadow: 0px 1px 0px #fff;
+	margin-top:8px;
+	border:1px solid #ddd;
+	}
+#commentform #submit:hover, #commentform #reset:hover {
+	font-weight:bold;
+	}
+#real-avatar .avatar{
+	float:right;
+	padding:2px;
+	border:1px solid #ddd;
+	background: #fff;
+	margin-right:20px;_margin-right:10px;
+}
