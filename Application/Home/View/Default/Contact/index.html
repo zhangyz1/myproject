@@ -47,7 +47,7 @@
 						      		<div class="comment-author vcard"><img src="https://secure.gravatar.com/avatar/42067610615c252153dc4c221045f4d3?s=80" class="avatar avatar-80" height="48" width="48" original="https://secure.gravatar.com/avatar/42067610615c252153dc4c221045f4d3?s=80" style="display: block;">					<div class="floor"><?php echo $v['id']?>楼         </div><strong><?php echo $v['name']?></strong>:</div>
 										<p><?php echo $v['content']?></p>
 
-								<div class="clear"></div><span class="datetime"><?php echo data('Y-M-D',$v['updated_time'])?> </span> <span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://www.laozuo.org/3495.html?replytocom=4583#respond" onclick="return addComment.moveForm( &quot;div-comment-4583&quot;, &quot;4583&quot;, &quot;respond&quot;, &quot;3495&quot; )" aria-label="回复给<?php echo $v['name']?>">[回复]</a></span>
+								<div class="clear"></div><span class="datetime"><?php echo Date('Y-M-D',$v['updated_time'])?> </span> <span class="reply"><a rel="nofollow" class="comment-reply-link" href="http://www.laozuo.org/3495.html?replytocom=4583#respond" onclick="return addComment.moveForm( &quot;div-comment-4583&quot;, &quot;4583&quot;, &quot;respond&quot;, &quot;3495&quot; )" aria-label="回复给<?php echo $v['name']?>">[回复]</a></span>
 						  </div>
 							</li>
 						<?php endforeach;?>
