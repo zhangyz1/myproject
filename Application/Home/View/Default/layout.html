@@ -74,7 +74,7 @@
 								<li>
 									<a href="<?php echo U('Categories/index')?>" class="parent">hot comments</a>
 									<ul>
-										<li><a href="#">Menu 1001</a></li>
+										<li><a href="<?php echo U('Categories/video')?>">video list</a></li>
 										<li><a href="#">Menu 1002</a></li>
 										<li><a href="#">Menu 1003</a></li>
 									</ul>
@@ -119,7 +119,27 @@
 						</ul>
 						<div class="clear"></div>
 					</div>
-
+					<center>
+				      <h3>网站访客统计</h3>
+				      <font size="6" face="隶书" >欢迎访问我的BLOG！您是第</font>
+				      <B>
+				      <?php
+				        $counter=1;
+				        if(file_exists("Application/Home/rec.txt"))
+				        {
+				          $fp=fopen("Application/Home/rec.txt","r");
+				          $counter=fgets($fp,1024);
+				          $counter++;
+				          fclose($fp);
+				        }
+				        $fp=fopen("Application/Home/rec.txt","w");
+				        fputs($fp,$counter);
+				        fclose($fp);
+				        echo "<font size='9' face='Verdana' color='#FF0000'>".$counter."</font>";
+				      ?>
+				      </B>
+				      <font size="6" face="隶书" >位访客！</font>
+				    </center>
 				</div>
 			</div>
 		</div>
@@ -127,6 +147,7 @@
 	<div class="copyright">
 
 	</div>
+
 </footer>
 
 </div>

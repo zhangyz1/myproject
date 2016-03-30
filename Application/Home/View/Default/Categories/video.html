@@ -1,0 +1,92 @@
+<section class="container page-single">
+<video width="320" height="240" controls>
+  <source src="movie.ogg" type="video/ogg">
+  <source src="http://www.runoob.com/try/demo_source/movie.mp4" type="video/mp4">
+  <source src="movie.webm" type="video/webm">
+  <object data="movie.mp4" width="320" height="240">
+    <embed width="320" height="240" src="movie.swf">
+  </object>
+</video>
+</section>
+<div  id="container"   style="width:200px;height:200px;background-Color:green;">
+</div>
+
+<script>
+     var   _$=function (id)
+               {
+                     this.element=  document.getElementById(id);
+                }
+       _$.prototype={
+            bind:function(evt,callback)
+            {
+                var   that=this;
+                if(document.addEventListener)
+                {
+                    this.element.addEventListener(evt, function(e){
+                        callback.call(this,that.standadize(e));
+                    }  ,false);
+                }
+                else if(document.attachEvent)
+                {
+                    this.element.attachEvent('on'+evt,function(e){
+                        callback.call(this,that.standadize(e));
+                    });
+                }
+                else
+                    this.element['on'+evt]=function(e){
+                        callback.call(this,that.standadize(e));
+                    };
+            },
+            standadize:function(e){
+                 var  evt=e||window.event;
+                 var  pageX,pageY,layerX,layerY;
+                 //pageX  横坐标  pageY纵坐标   layerX点击处位于元素的横坐标   layerY点击处位于元素的纵坐标
+                 if(evt.pageX)
+                 {
+                     pageX=evt.pageX;
+                     pageY=evt.pageY;
+                 }
+                 else
+                 {
+                    pageX=document.body.scrollLeft+evt.clientX-document.body.clientLeft;
+                    pageY=document.body.scrollTop+evt.clientY-document.body.clientLTop;
+                 }
+                 if(evt.layerX)
+                 {
+
+                     layerX=evt.layerX;
+                     layerY=evt.layerY;
+                 }
+                 else
+                 {
+                     layerX=evt.offsetX;
+                     layerXY=evt.offsetY;
+                 }
+                 return  {
+                    pageX:pageX,
+                    pageY:pageY,
+                    layerX:layerX,
+                    layerY:layerY
+                 }
+
+            }
+
+
+       }
+       window.$=function(id)
+       {
+          return  new _$(id);
+
+       }
+
+
+        $('container').bind('click',function(e){
+
+            alert(e.pageX);
+        });
+
+        $('container1').bind('click',function(e){
+
+             alert(e.pageX);
+        });
+</script>

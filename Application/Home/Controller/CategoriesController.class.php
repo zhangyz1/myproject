@@ -6,4 +6,9 @@ class CategoriesController extends Controller {
 
         $this->display();
     }
+
+    public function video(){
+
+        $this->display();
+    }
 }
