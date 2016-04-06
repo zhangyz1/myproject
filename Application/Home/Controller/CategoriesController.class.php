@@ -11,4 +11,8 @@ class CategoriesController extends Controller {
 
         $this->display();
     }
+
+    public function confession(){
+       $this->display();
+    }
 }
