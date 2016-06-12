@@ -5,7 +5,7 @@ class ComposeController extends Controller {
     public function add(){
         if (IS_POST) {
           $data= I('post.');
-          $user = D('Article')->add(array('title'=>$data['title'],'categroy'=>$data['categroy'],'describe'=>$data['describe'],'content'=>$data['message'],'updated_time'=>time(),'created_time'=>time()));
+          $user = D('Article')->add(array('title'=>$data['title'],'categroy'=>$data['categroy'],'describe'=>$data['describe'],'content'=>$data['content'],'updated_time'=>time(),'created_time'=>time()));
           if ($user) {
             echo 'ddddd';
           }
